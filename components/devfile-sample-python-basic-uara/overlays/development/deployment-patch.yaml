@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-uara
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/bkundu-tenant/my-app/devfile-sample-python-basic-uara@sha256:98bdf52ad8fc75438ccdfb91ad8bd431ac91b01e51a0e8d2090b7fa773cb9561
+        name: my-python
+        resources: {}
+status: {}
