@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic-uara
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/bkundu-tenant/my-app/devfile-sample-python-basic-uara@sha256:5d17206a8f4ad4f13c1dc9f34c74afc2e1c3840ec35742bad2a7f79bfeb0eb44
+      - image: quay.io/redhat-user-workloads-stage/bkundu-tenant/my-app/devfile-sample-python-basic-uara@sha256:98bdf52ad8fc75438ccdfb91ad8bd431ac91b01e51a0e8d2090b7fa773cb9561
         name: my-python
         ports:
         - containerPort: 8081
